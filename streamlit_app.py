@@ -30,7 +30,6 @@ streamlit.header("Fruityvice Fruit Advice!")
 #streamlit.write('The user entered ', fruit_choice)
 try:
   fruit_choice = streamlit.text_input('What fruit would you like information about?')
-#streamlit.text(fruityvice_response.json()) -delete
 if not fruit_choice:
   streamlit.error("Please selecta fruit to get information.")
  else:
